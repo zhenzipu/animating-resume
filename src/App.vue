@@ -23,9 +23,9 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by https://www.finen.top
-* 大家好，我是finen
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
+* Inspired by https://www.zhenzipu.top/Blogs/
+* 大家好，我是puzi
+* 都996了，你是不是也在准备简历呀。
 * 说做就做，我也来写一份简历！
 */
 
@@ -115,34 +115,32 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `何凤恩
+        fullMarkdown: `甄子璞
 ----
 
-后端Java开发工程师，Python开发。
+前端开发工程师
 
 技能
 ----
 
-* Java后端开发
-* Python后端开发
-* Node.js 开发
-* Vue.js
+* JavaScript、html5、css3
+* vue、react全家桶
+* git、webpack
+* eCharts、zTree
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 京东云平台研发部
+2. 北京大同区块链技术研究院
+3. 张家口信达科技有限公司
 
 链接
 ----
 
-* [GitHub](https://github.com/hirCodd)
-* [我的Blog](https://www.finen.top)
+* [GitHub](https://github.com/zhenzipu)
+* [我的Blog](https://www.zhenzipu.top/Blogs/)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/hirCodd/animating-resume.git)，打造你自己的简历！
 
 `
       }

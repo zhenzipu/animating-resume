@@ -23,10 +23,9 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
+* Inspired by https://www.zhenzipu.top/Blogs/
+* 大家好，我是puzi
+* 都996了，你是不是也在准备简历呀。
 * 说做就做，我也来写一份简历！
 */
 
@@ -36,35 +35,21 @@
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
-  color: rgb(222,222,222);
-  background: rgb(0,43,54);
+  color: rgb(222,222,222); background: rgb(0,43,54);
 }
 /* 文字离边框太近了 */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
+  margin: .5em;
   overflow: auto;
-  width: 90vw;
-  margin: 2.5vh 5vw;
-  height: 90vh;
-}
-/* 太高了 */
-.styleEditor {
-  height: 45vh;
+  width: 45vw; height: 90vh;
 }
 /* 代码高亮 */
-.token.selector{
-  color: rgb(133,153,0);
-}
-.token.property{
-  color: rgb(187,137,0);
-}
-.token.punctuation{
-  color: yellow;
-}
-.token.function{
-  color: rgb(42,161,152);
-}
+.token.selector{ color: rgb(133,153,0); }
+.token.property{ color: rgb(187,137,0); }
+.token.punctuation{ color: yellow; }
+.token.function{ color: rgb(42,161,152); }
 
 /* 加点 3D 效果呗 */
 html{
@@ -72,15 +57,17 @@ html{
 }
 .styleEditor {
   position: fixed; left: 0; top: 0;
-  transform: rotateX(-10deg) translateZ(-50px) ;
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: rotateY(10deg) translateZ(-100px) ;
+          transform: rotateY(10deg) translateZ(-100px) ;
 }
 
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
-  position: fixed;
-  top: 50%; left: 0;
-  padding: .5em;  margin: 2.5vh;
-  width: 95vw; height: 45vh;
+  position: fixed; right: 0; top: 0;
+  padding: .5em;  margin: .5em;
+  width: 48vw; height: 90vh;
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
@@ -128,36 +115,32 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `甄子璞
 ----
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+前端开发工程师
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* JavaScript、html5、css3
+* vue、react全家桶
+* git、webpack
+* eCharts、zTree
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 京东云平台研发部
+2. 北京大同区块链技术研究院
+3. 张家口信达科技有限公司
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/zhenzipu)
+* [我的Blog](https://www.zhenzipu.top/Blogs/)
 
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
 
 `
       }
